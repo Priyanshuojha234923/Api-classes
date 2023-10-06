@@ -1,10 +1,10 @@
 Array trsaversal:-
-        1) insertion
-        2) selection
-        3) updation
-        4) deletion
-        5) sorting
-        6) searching
+        (1) insertion
+        (2) selection
+        (3) updation
+        (4) deletion
+        (5) sorting
+        (6) searching
 
 sorting
 ------------
@@ -14,7 +14,7 @@ enter element :80
 if index==3
 arr[3]=80
 
-2) multidimentional/2d Array
+(2) multidimentional/2d Array
 ================================
 this is used  for matrix representaion
 we know that matrix is a combination of row and column nested for loop is used in 2d Array.
