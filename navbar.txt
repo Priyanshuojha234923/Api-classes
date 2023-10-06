@@ -1,0 +1,152 @@
+<html lang="en">
+    <head><title>
+     navbar
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<style>
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        border: none;
+        background-color: unset;
+        color: white;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    position: relative;
+    font-size: 1.1em;
+    color:#333;
+    text-decoration: none;
+    padding:6px 20px;
+    transition: 0.5s;
+    color: white;
+}
+#navbarSupportedContent .navbar-nav .nav-item .nav-link:hover{
+    color: #0ef;
+}
+#navbarSupportedContent .navbar-nav .nav-item .nav-link span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    z-index: -1;
+    border-bottom: 2px solid #0ef;
+    border-radius: 15px;
+    transform: scale(0) translateY(50px);
+    transition: 0.5s;
+    opacity: 0;
+}
+#navbarSupportedContent .navbar-nav .nav-item .nav-link:hover span {
+    transform: scale(1) translateY(0);
+    opacity:1;
+}
+.dropdown-menu .dropdown-item{
+    position: relative;
+    font-size: 1.1em;
+    color:#333;
+    text-decoration: none;
+    padding:5%;
+    transition: 0.5s;
+    background-color: unset;
+    color: white;
+
+}
+
+.dropdown-menu .dropdown-item:hover{
+    color: #0ef;
+    background-color: unset;
+}
+.dropdown-menu .dropdown-item span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-bottom: 2px solid #0ef;
+    border-radius: 15px;
+    transform: scale(0) translateY(50px);
+    transition: 0.5s;
+    opacity: 0;
+}
+.dropdown-menu .dropdown-item:hover span {
+    transform: scale(1) translateY(0);
+    opacity:1;
+}
+</style>
+
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.php"><strong>HOME</strong><span></span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <strong>ACADEMICS</strong><span></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#"><strong>ADMISSIONS</strong><span></span></a></li>
+                            <li><a class="dropdown-item" href="/home/stafflist"><strong>STAFF LIST</strong><span></span></a></li>
+                           
+                            <li><a class="dropdown-item" href="/home/coursesoffered"><strong>COURSE OFFERED</strong><span></span></a></li>
+                            <li><a class="dropdown-item" href="/home/cOMMITTEE"><strong>COMMITTEE</strong><span></span></a></li>
+                            <li><a class="dropdown-item" href="/home/academiccalender"><strong>ACADEMIC CALENDER</strong><span></span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/home/aicteeoaletters"><strong>MANDATORY DISCLOSURE</strong><span></span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <strong>ABOUT US</strong><span></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/home/principal"><strong>PRINCIPAL</strong><span></span></a></li>
+                            <li><a class="dropdown-item" href="/home/vision"><strong>VISION</strong><span></span></a></li>
+
+                            <li><a class="dropdown-item" href="/home/mission"><strong>MISSION</strong><span></span></a></li>
+                            <li><a class="dropdown-item" href="/home/library"><strong>LIBRARY</strong><span></span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <strong>STUDENT CORNER</strong><span></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"id="dropdown">
+                            <li><a class="dropdown-item" href="https://bteup.ac.in/webapp/SYLLABUS.aspx?type=15#"><strong>SYLLABI</strong><span></span></a></li>
+                           
+                            <li><a class="dropdown-item" href="/home/fee"><strong>FEE & SCHOLARSHIP</strong><span></span></a></li>
+                            <li><a class="dropdown-item" href="http://result.bteevaluation.co.in/Odd_Semester/main/"><strong>RESULT</strong><span></span></a></li>
+                            <li><a class="dropdown-item" href="#"><strong>CAREER DEVELOPMENT CELL</strong><span></span></a></li>
+                            <li><a class="dropdown-item" href="#"><strong>INTERNSHIP & WORKSHOP</strong><span></span></a></li>
+                            <li><a class="dropdown-item" href="#"><strong>PLACEMENT</strong><span></span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.php"><strong>CONTACT US</strong><span></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/home/feedback"><strong>FEEDBACK</strong><span></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/home/login"><strong>LOGIN</strong><span></span></a>
+                    </li>
+                </ul>
+        </nav>
+        
+    </body>
+</html>

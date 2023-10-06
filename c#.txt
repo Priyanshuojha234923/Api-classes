@@ -1,0 +1,8 @@
+Array trsaversal:
+          1) insertion
+          2) selection
+          3) updation
+          4) deletion
+          5) sorting
+          6) searching
+

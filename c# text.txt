@@ -1,0 +1,86 @@
+Array trsaversal:-
+        1) insertion
+        2) selection
+        3) updation
+        4) deletion
+        5) sorting
+        6) searching
+
+sorting
+------------
+arr=10 ,20,30,40,50,60
+enter index:3.......40
+enter element :80
+if index==3
+arr[3]=80
+
+2) multidimentional/2d Array
+================================
+this is used  for matrix representaion
+we know that matrix is a combination of row and column nested for loop is used in 2d Array.
+multiple square breacket are used to represent 2d array.
+
+syntax.
+=======
+datatype[][] Array_name=new_Arrayname[size1][size2]
+
+1 2 3   00 01 02
+2 3 4 = 10 11 12
+4 5 6   20 21 22
+
+multiplication of two matrix:
+=============================
+1 2 * 1 2 = 1*1 + 2*3  =7  10
+3 4   3 4   3*1 + 4*4  =15 22
+
+(00*00) (01*10)    (00*01)  (01*11)
+ 1*1   + 2*3       1*2  +  2*4           =        7(00)    10 (01)
+(10*00) (11*10)    (10*01)   (11*11)              15(10)   22 (11)
+ 3*1  +  4*3       3*2  +  4*4
+
+
+for(r=0;r<2;r++){
+    for(c=0;c<2;c++){
+        sum1[r,c]=0;
+        for(k=0;k<2;k++)
+        {
+            sum[r,c]+=mat1[r,k]*mat2[k,c];
+        }
+    }
+}
+
+
+
+string:
+=======
+String is a charector of array;
+string also start with 0 to length-1;
+In C# string datatype is used for string;
+Syntax:
+========
+string String_name/ Char[] ch= new char[Size]
+i=0;str[i]!='\0';i++;v
+
+Some predefine function of string;
+===================================
+length():
+   This function used for count lengthof string;
+ToUpper():
+   This functionis used for Convert string in upper Case.
+ToLower():
+   This functionis used for Convert string in Lower Case.
+Insert():
+   This function is used for Insert charectoris string.
+Remove():
+   This function is used for Remove charector.
+Concat():
+   This function is used for join two String.
+Trim():
+   This functionis used for cut String'
+Equals():
+   this function is used Compare two string.
+IndexOf():
+   This Function is used for Find index of participation Char.
+Lastindexof():
+    This function is used for find the last index of string;
+
