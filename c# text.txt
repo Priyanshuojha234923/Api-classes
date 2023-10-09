@@ -164,6 +164,9 @@ There are 5 types of inherite
 in single level inheritence,a sub(child) class inherite property of super(parent) class.
 
 2)multilevel inheritence
+=========================
+in multilevel inheritence child class access parent  class property and super child access 
+sub class property;c
 3)multiple inheritence
 4)heirachle inheritence
 5)hybrid inheritence
