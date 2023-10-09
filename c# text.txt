@@ -58,7 +58,7 @@ string also start with 0 to length-1;
 In C# string datatype is used for string;
 Syntax:
 ========
-string String_name/ Char[] ch= new char[Size]
+string String_name
 i=0;str[i]!='\0';i++;v
 
 Some predefine function of string;
@@ -77,10 +77,90 @@ Concat():
    This function is used for join two String.
 Trim():
    This functionis used for cut String'
-Equals():
+Equals():v
    this function is used Compare two string.
 IndexOf():
    This Function is used for Find index of participation Char.
 Lastindexof():
     This function is used for find the last index of string;
+
+ Function:
+ =========
+    Function is a block of code used to perform specific task
+    Function provide reusability of code.
+    in C# we can declare static and non static method.
+    Types of method:
+    ================
+
+
+    Predefine method:
+    ==================
+       this method is already define in compiler or predefine class.
+       Example:- WriteLine() ,ReadLine(),read()
+    User definne method
+    ===================
+    This is used by user or programmer.
+    Types of user define method:
+    -----------------------------
+     1)no return no passing parameter
+
+           in this function provide output or result of function.
+           void keyword are used in no return function;void is no return type or null return type;
+
+     2)no return but passing parameter
+
+           but parametirized function can not have any value;
+
+     3)return but no passing parameter
+          
+           it return always value and print accordingto need;
+
+     4)return but passing parameter
+
+           return keyword are used to declare return function.
+           return function always return value and print according to need.
+
+
+oops:
+===========
+OOPA stands for object programming system;
+oops also provide redunency o f code;
+oops provide methodology of perform;
+oops have some important piller;
+1)class:
+=========
+class is a collection of object .class is a container which contain data member and data method.
+class also called user define datatype;
+class keyword are used to create a class.
+Syntax
+=======
+class class_name{
+   //data member 
+   //data method
+}
+ 2) object
+ ===========
+ object is a real word entity.which are used to access properties of class.
+ object have some properties and features .
+ we can create multiple object in a single class.
+ Syntax:
+ =======
+  class class_name
+  {
+     //data member
+     //data method
+  }
+  Main class{
+   class_name object_name=new class_name();
+  }
+
+
+     
+      
+   
+     
+
+
+
+
 
