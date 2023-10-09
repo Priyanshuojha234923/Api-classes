@@ -153,8 +153,20 @@ class class_name{
   Main class{
    class_name object_name=new class_name();
   }
+3)inheritence
+==============
+inheritenceof most imporatnt piller of oops concept.
+inheritence is a mechanism in which a class inherite another class property.
+column (:)symbol are used to inherite another class in c#;
+There are 5 types of inherite
+1) single level inheritence
+===========================
+in single level inheritence,a sub(child) class inherite property of super(parent) class.
 
-
+2)multilevel inheritence
+3)multiple inheritence
+4)heirachle inheritence
+5)hybrid inheritence
      
       
    
