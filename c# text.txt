@@ -202,11 +202,22 @@ ii) compile Time Polymorphism:
 ==============================
       i)method overriding:
       ====================
+        In this concept we can declare same name of method of parent class and also child class;
+        child class always override parent class method;
+
          
 6)Data Abastraction:
 =======================
-     
+     Data Abastraction is a process is used for data hiding internal processof code;
+     Abastract keyword are used in data Abastraction;
+     we can declare Abastract class and Abastract method in data Abastraction class;
+     We can't declare object of Abastract class and contain Abastract method and non Abastract method;
+     We know that Abastract ,method can not have method body;
+     We can declare method Body on calling Time;
 
+Constructure:
+==============
+      
 
 
      
