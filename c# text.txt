@@ -212,11 +212,46 @@ ii) compile Time Polymorphism:
      Abastract keyword are used in data Abastraction;
      we can declare Abastract class and Abastract method in data Abastraction class;
      We can't declare object of Abastract class and contain Abastract method and non Abastract method;
-     We know that Abastract ,method can not have method body;
+     We know that Abastract method can not have method body;
      We can declare method Body on calling Time;
 
 Constructure:
 ==============
+    Constructure is a special method of class.
+    Constructure is same name as class name.
+    Constructure called autometacily when object are created;
+    We can create multiple Constructure in single class.
+    Constructure have no any return type.
+    Constructure always public access modifire;
+    Syntax:
+    =======
+       class_name object_name=new class_name;
+
+
+       Ex:
+       ===
+       demo d =new demo();
+       Here:-
+          Demo is a class name;
+          D is object_name(reference variable);
+          New is used to memory initilization;
+          demo() is a Constructure;
+
+
+Types of Constructure:
+======================
+    i) Default Constructure:
+    ========================
+          any class have by Default one Constructure without any parameter;
+    ii) copy Constructure:
+    =======================
+         In this copy one Constructure to another.
+    iii) static Constructure:
+    ========================
+        static Constructure always declare in static class.
+    iv)  parametirized Constructure:
+    ===============================
+       parametirized Constructure contain some parameter and given value on calling time;
       
 
 
