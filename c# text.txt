@@ -166,10 +166,19 @@ in single level inheritence,a sub(child) class inherite property of super(parent
 2)multilevel inheritence
 =========================
 in multilevel inheritence child class access parent  class property and super child access 
-sub class property;c
+sub class property;
 3)multiple inheritence
+=========================
+This is not supporetd in C#.
+because a single child class not inherite multiple parent classs;
+
 4)heirachle inheritence
++======================+
+In this inheritance one parent class and multiple child class can inherite property of parent class;
+
 5)hybrid inheritence
+=++++++++++++++++=
+hybrid inheritance is a combination of multiple and multilevel or other inheritance;So multiple is not supporetd also hybrid in not supporetdin C#;
      
       
    
