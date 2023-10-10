@@ -159,26 +159,56 @@ inheritenceof most imporatnt piller of oops concept.
 inheritence is a mechanism in which a class inherite another class property.
 column (:)symbol are used to inherite another class in c#;
 There are 5 types of inherite
-1) single level inheritence
+i) single level inheritence
 ===========================
 in single level inheritence,a sub(child) class inherite property of super(parent) class.
 
-2)multilevel inheritence
+ii)multilevel inheritence
 =========================
 in multilevel inheritence child class access parent  class property and super child access 
 sub class property;
-3)multiple inheritence
+iii)multiple inheritence
 =========================
 This is not supporetd in C#.
 because a single child class not inherite multiple parent classs;
 
-4)heirachle inheritence
+iv)heirachle inheritence
 +======================+
 In this inheritance one parent class and multiple child class can inherite property of parent class;
-
-5)hybrid inheritence
+   
+v)hybrid inheritence
 =++++++++++++++++=
 hybrid inheritance is a combination of multiple and multilevel or other inheritance;So multiple is not supporetd also hybrid in not supporetdin C#;
+4)Encapsulation:-
+=================
+In this concept wrapping data in single unit is called Encapsulation.Encapsulation work same like as capsule;
+Encapsulation contain member ,method with access modifire;
+5)Polymorphism:
+=================
+Polymorphism is a concept of made by poly and morphsime words
+Types of Polymorphism:
+======================
+i) Run Time Polymorphism
+============================
+       i)method overloading:
+       ======================
+          This concept contain multiple method of same name.but having different types of signature;
+          signature depends on two types like number of data type and number of parameter;
+
+       ii)operator overloading
+       ========================
+          operator overloading concept manage operator accordingto need;
+ii) compile Time Polymorphism:
+==============================
+      i)method overriding:
+      ====================
+         
+6)Data Abastraction:
+=======================
+     
+
+
+
      
       
    
