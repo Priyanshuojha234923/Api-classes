@@ -225,8 +225,8 @@ Constructure:
     Constructure always public access modifire;
     Syntax:
     =======
-       class_name object_name=new class_name;
-
+       class_name object_name=new class_name();
+                                 --------------Special method/Constructure
 
        Ex:
        ===
@@ -308,10 +308,10 @@ Access modifire/specifire
   Server side validation in Asp.Net:
   ==================================
     1)required field validation (compalsary)
-       compalsary to input value in text box;
+       compalsary to input value in text box;all textbox
 
     2)compare to validation 
-       compare 1 elemet to another element.like password to c passwordall textbox
+       compare 1 elemet to another element.like password to c password textbox
 
     3)regular validation
        use to set proper formate for expressions used in email mobile used in email mobile etc
