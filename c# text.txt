@@ -206,7 +206,7 @@ ii) compile Time Polymorphism:
         child class always override parent class method;
 
          
-6)Data Abastraction:
+6) Data Abastraction:
 =======================
      Data Abastraction is a process is used for data hiding internal processof code;
      Abastract keyword are used in data Abastraction;
@@ -253,6 +253,76 @@ Types of Constructure:
     ===============================
        parametirized Constructure contain some parameter and given value on calling time;
       
+Interface:
+===========
+Interface is a blue featuresprint of class;
+Interface is fullfill requirement of multiple inheritance;
+Interface keyword is used to declare Interface;
+in a single class we can declare multiple inheritance;
+Interface contain Abastract method.means any method without methodbody;
+Interface can't be inherite .Interface always implimented with comma(,)symbol;
+IN Interface single Child class can access multiple Interface.
+Syntax:
+=======
+Interface Interface_name
+{
+   //Abastract method;
+}
+
+Access modifire/specifire
+=========================
+   Access modifire tells about scope of method and class;
+   we can use internal,public,private,protected keyword in access modifire;
+
+
+   internal
+   ========
+    This is bydefault access modifire in class
+    internal scope is one assembly to another assembly and inside outside of class;
+
+    public
+    =======
+    public modifire scope in same class and outside of class;
+
+    protected
+    =========
+    protected is used for same class and child class also;
+
+    private
+    =========
+   private access,modifire scopein same class and same method.
+   if we want access out side class then first declare in public method then access eassly.
+   
+
+   Note:
+   =====
+   internal,public,protected,private these are all keyword;
+   we can't declare protected and private classes 
+   we can  declare only protected and private method;
+   in C# by default access modifire is internal;
+   we can also declare internal class using internal keyword
+
+
+
+
+  Server side validation in Asp.Net:
+  ==================================
+    1)required field validation (compalsary)
+       compalsary to input value in text box;
+
+    2)compare to validation 
+       compare 1 elemet to another element.like password to c passwordall textbox
+
+    3)regular validation
+       use to set proper formate for expressions used in email mobile used in email mobile etc
+
+    4)range validation
+       used to define max to min value like age etc;
+
+    5)custom validation
+       used to declare logic related. according to business need
+
+
 
 
      
