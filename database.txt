@@ -108,5 +108,16 @@ aggregate function:
     7)asc order
     8)dese order
 
+Task:
+=====
+voter management:
+=================
+name village mobile (uk),adhar(uk),voterid(pk)....create table with pk and uk and insert 10 different.
+
+employee management
+===================
+create table with 15 column with proper pk and uk and insert 10 record.
+find data of maximum salary person and also find second mainimum salary of person.
+wac  to insert last data of any person and salary is total of all person
 
 
