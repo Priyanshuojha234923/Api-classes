@@ -3,6 +3,7 @@ Database:
 Database is used for store information and record .
 we can manage database according to need.
 we can retrive record delete record ,merge record according to need.
+as is a alias keyword used to provide rename of column but not permanently.
 
 Note:
 =========
@@ -81,8 +82,8 @@ types of key
 primary key:
     primary key provide unique identification .
     in a single table we can declare only one primary key
-    primary key cant be null
-    primary key key are usedto declare primary key.
+    primary key can't be null
+    primary key keyword are used to declare primary key.
 
 unique key:
     unique key is also used for unique identification in a single table we can create multilable unique key unique key can be null or not can be null
@@ -92,11 +93,20 @@ foreigne key:
     foreigne key is provide relation b/w two or more table.
     foreigne key is used for join operation to merge more table based on condition.
 
-    
-
 super key:
-composite key:
 
+
+Candidate key:
+
+aggregate function:
+    1)count(): is used for count data into table.
+    2)sum(): is used for add column data
+    3)avg(): is used for find average
+    4)max(): is used for find maximum data.
+    5) min(): is used for minimum data.
+    6)top(): is used for find top record of tablle
+    7)asc order
+    8)dese order
 
 
 
