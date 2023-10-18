@@ -40,4 +40,26 @@ Input / Output in javascript :
             document.write("string");
     3)console.log():
         this is used for display output on console window of browser.
-        
+
+Input function in javascript:
+    prompt():
+        this method is used for provide predefine textbox.prompt() is return always string data.
+        prompt method contain two parameter these are optional.
+        synatax:
+        ========
+            prompt("para1,para2");
+    Variable():
+        variable is hold memory space for store value;
+        var,let keyword are used to declare variable.
+
+    1)local variable:
+        let and var both keyword are used to declare local variable;
+        Ex: let name;
+            var name;
+    2)global variable:
+        only var keyword are used to declare global variable.
+        Ex:var name;
+    
+    constant:
+        const keyword are used to declare constant.
+        Ex:cons name="boss";
