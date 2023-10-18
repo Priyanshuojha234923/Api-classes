@@ -1,0 +1,9 @@
+Angular
+=======
+html,css,bootstrap,programming...
+....................................
+javascript,typescript ,json,Angular,Jquery
+---------------------------------------------
+
+Web Api...(How to integrate)
+          (how to develope)...hosting.........

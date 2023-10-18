@@ -1,0 +1,43 @@
+Javascript:
+===========
+javascript is a client side scripting language.
+javascript is also object based language.
+javascript is works with Dom.
+We know that scripting language which suport interpreter.
+interpriter compile code line by line .
+javascript initial name was MOTCHA. under in Natescape Corporation.
+javascript pure case sensetive.
+Javascript follows two object first is windows object and second is document object
+javascript also known as functional scripting language.
+javascript developed by Brendan Eich in 1995.
+javascript also event driven programming language.
+
+Types of javascript:
+=====================
+1)inline javascript
+====================
+    when write code in same element with proper event like onclick(),onchange(),etc event
+2)internal javascript:
+=====================
+    this javascript write code in script tag of html in head section.
+3)External javascript:
+======================
+    In this we write code in next page ,and save with .js extention and link html page with script tag with src property.
+
+Input / Output in javascript :
+==============================
+    1)alert():
+    -------
+        alert() is used for display Output or result on popup;
+        syntax:
+        -------
+            alert("string"); / window.alert("string");
+    2)write():
+        write() is used for display output or result on normal text.
+        write method available in documnet object.
+        syntax:
+        -------
+            document.write("string");
+    3)console.log():
+        this is used for display output on console window of browser.
+        
