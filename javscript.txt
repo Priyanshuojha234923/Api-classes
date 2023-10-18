@@ -60,6 +60,15 @@ Input function in javascript:
         only var keyword are used to declare global variable.
         Ex:var name;
     
-    constant:
-        const keyword are used to declare constant.
-        Ex:cons name="boss";
+constant:
+    const keyword are used to declare constant.
+    Ex:cons name="boss";
+
+Type casting:
+    in this convert one data to another data type.
+    1)convert to int:
+        parseInt():convert into int;
+        parseFloat():convert to float;
+        Number():convert int and float both...etc;
+
+    
