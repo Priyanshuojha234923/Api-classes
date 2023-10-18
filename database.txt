@@ -1,0 +1,102 @@
+Database:
+==========
+Database is used for store information and record .
+we can manage database according to need.
+we can retrive record delete record ,merge record according to need.
+
+Note:
+=========
+We learn Mysql. Stand for Microsoft SQL(structured query language).
+
+
+How to create database:
+=========================
+create database database_name.
+
+Datatype:
+========
+data tells about of data type;
+
+int :
+    int is used for store integer data;
+
+Tinyint:
+    this is used for very small integer;
+
+bigint:
+    bigint used for biggest size of integer.
+
+varchar(size):
+    varchar is used for store string Datatype with proper Size;
+
+nvarchar(Size):
+    nvarchar(size) is used for hindi characters.
+ 
+Bit:
+    bit is used for store true and false;
+
+DateTime:
+    datetime is used for store date and time;
+
+date:
+    date is used for store only date;
+
+numeric:
+    numeric is used for decimal values;
+
+operator in SQL:
+===============
+    operator is a symbol are used to perform relation b/w two or more operands;
+
+types of operator:
+==================
+1)Airthmatic operator
+    + for addition
+    - for subtration
+    * for multiplication
+    / for divide
+    % for reminder
+
+2)Logical operator
+    and keyword perform both condition are true.
+    or keyword are used both or single condition are true.
+    not keyword perform if true then false if false then true.
+
+3)relational operator
+    >,<,<=,>=
+
+4)conditional operator
+    where keyword are used to perform conditional operator.
+
+5)bitwise operator
+    !,|,&,^,~ based on binary connect with 0 and 1 form.
+
+key
+===
+ key provide unique identification of column.
+ key is also used for security purpose and stop data redunency.
+
+types of key
+============
+primary key:
+    primary key provide unique identification .
+    in a single table we can declare only one primary key
+    primary key cant be null
+    primary key key are usedto declare primary key.
+
+unique key:
+    unique key is also used for unique identification in a single table we can create multilable unique key unique key can be null or not can be null
+    unique key keyword are used to declare unique key. 
+
+foreigne key:
+    foreigne key is provide relation b/w two or more table.
+    foreigne key is used for join operation to merge more table based on condition.
+
+    
+
+super key:
+composite key:
+
+
+
+

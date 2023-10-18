@@ -7,8 +7,8 @@ wap to check eligibility for marriege if age is greter then 14;
 create a marksheet of intermediate student with proper grade also print persentage;
 wap to print electricity bill if bill is 50 to 100 unit then charge 10rs per unit.if 100 to 200 then charge 15rs perunit but under 100 unit charges in 10rs per unit;
 wap to check given string is palindrome string;
-wap to print name with this formate like akash datt pathak ==> a d pathak
-wap to print all prime number b/w 1 to 100 using rpp;
+wap to print name with this formate like akash datt pathak - a d pathak in C#
+wap to print all prime number b/w 1 to 100 using return but passing parameter function in c#;
 wap to print perfect number b/w 1 to 1000 using nrpp;
 create a 4 class and discribe multilable inheritence ;
 what is interface ? explain with Example.
