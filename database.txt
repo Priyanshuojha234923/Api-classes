@@ -120,4 +120,56 @@ create table with 15 column with proper pk and uk and insert 10 record.
 find data of maximum salary person and also find second mainimum salary of person.
 wac  to insert last data of any person and salary is total of all person
 
+SQl connection:
+================
+    Ado.NET :
+        Ado is stands for active database object.
+        ado provide some predefine classes with method.
+        ado is used in both Asp.net And Asp.net With MVC.
+
+    Some classes od ado.net:
+    ========================
+        1)SQlConnection:
+        -----------------
+            this class is used to connect to client side page to database.
+        Syntax:
+            SQlConnection con=new SQlConnection(connection_string);
+        connectionstring:
+            connectionstring is provide connection with database with two modes online mode and offline mode.
+    connection with offline mode:
+    -----------------------------
+        i)Data source: this is a contain server name of your system.
+        ii)Intitial Cataloge: this contain database name.
+        iii)integreted security: true;
+     connection with offline mode:
+    -----------------------------
+        i)datasource: this contain ip address of your hosting server.
+        ii)Intitial Catalog:This is contain database name.
+        iii)User ID: contain user id of database.
+        iv)Password:Password contain Password of server side panel.
+
+2)connectionState:
+    This is used of check connection is open or close;
+    if connection is close then open and connection is open then no need to again open.
+    connectionState property availble in Sql connection Class.
+3)SqlCommand class:
+    used for send command to database with connection object.
+    SqlCommand class contain ExecuteNonQuery function.
+
+    Syntax:
+        SqlCommand cmd=new SqlCommand("command","connection_object");
+
+4)ExecuteNonQuery:
+    This is used for execute insert update and delete command and return integer data.
+    if command is executed then return 1.
+    if command not executed then return 0.
+
+Note:
+-----
+All classes availble in 2 namespace;
+-------------------------------------
+using System.Data;
+using System.Data.SqlClient;
+
+
 

@@ -71,4 +71,62 @@ Type casting:
         parseFloat():convert to float;
         Number():convert int and float both...etc;
 
+Data flow control:
+    if statement
+    ladder if statement
+    nested if
+    else statement
+
+Loop Statement:
+    while Loop
+    for Loop
+    do-while Loop
+
+Note: all theory and synatax same as c and C#;
+
+How to access data from html text box using js:
+-----------------------------------------------
+    1)getElementById("Idname"):
+    this is used for set and get data using id property of html tag.this method available in documnet object.
+
+    Syntax:
+    -------
+        var txt=document.getElementById("idname");
+    
+    value:
+        value is used for set and get value from control of html.
+
+    Syntax:
+    -------
+
+    innerText:
+        this is used for set and get text data from any text tag of html; 
+    innerHTML:
+        this is used for set and get data from all html element;
+
+    Style:
+    ------
+        style is used for apply css on any html element.
+    
+    Event of javascript:
+        1)onload event
+        2)onclick
+        3)onchange
+        4)onblur
+        5)onkeyup
+        6)onkeydown
+        7)onkeypress
+        8)onhover
+        9)onmouseover
+        10)onmouseenter
+        11)onmouseout...etc
+    
+    
+
+
+
+
+
+
+
     
