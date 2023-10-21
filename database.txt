@@ -173,3 +173,64 @@ using System.Data.SqlClient;
 
 
 
+join operation:
+===============
+    join operation is used for merge two or more tables.
+    foreigne key concept are used in join operation;
+    join operation is used in relationship;
+
+
+Types of join:
+==============
+1)self join
+    self join is used for merge data  with proper object of table.Dot(.) operator is used in self join.
+2)inner join
+    inner join keyword are used in inner join. also on keyword are used in innerjoin merge data which are matched in both table. 
+3)left join
+    left join keyword are used in left join . merge both table and display all right table data including null also.
+4)right join
+    right join keyword are used in right join . merge both table and display all left table data including null also.
+5)full join
+    full join keyword are used to display all merge data including null also.
+6)cross join
+    cross join follows many to many relationship. 
+    connect all data one table to another table.
+
+Task:
+=====
+    create shoes tables like this..
+    tbl_shoes......name(nike)
+    tbl_brand.....formal boot sport casual lofers.
+    tbl_description......size color prise feedback
+    merge all tables with proper join
+    note: insert 15 shoes brand name.
+    
+
+Error of Sql command
+===================== 
+
+1) Invalid Object Name :-
+=======================
+    Please check table name and also exicute use command.
+2) Violation of primary key:
+===========================
+    We insert same data again again.please insert different type data mailny primary key data.
+3)column could not matched of supplied value like this :
+========================================================
+    please check number of column and number of values.
+4)identity insert on:
+=====================
+    we insert data into another column with unchanged data type.
+5)incorrect syntax near:
+======================
+    please check sql command (',"",keywords)..execute
+6)column this is not availble in table:
+=======================================
+    please check column name into the table.
+
+
+database command:
+update
+
+
+

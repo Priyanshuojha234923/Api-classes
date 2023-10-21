@@ -121,6 +121,10 @@ How to access data from html text box using js:
         10)onmouseenter
         11)onmouseout...etc
     
+how to bind data in dropdown using js:
+======================================
+    
+    
     
 
 
