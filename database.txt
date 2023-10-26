@@ -230,7 +230,82 @@ Error of Sql command
 
 
 database command:
-update
+update:
+    It is used for update table data but not structure or schema based on condition;
+
+command:
+    update table_name set col1=value,col2=value2....where col=value.
+
+truncate command:
+    truncate command is used for delete all data from table, but not structure. truncate command always provide new index for insert new data into table.
+
+command:
+    truncate table table_name;
+
+Delete command:
+    delete command is used for delete all data or also delete data based on condition.
+    delete command always provide last index for insert new data.
+
+command:
+    delete from table_name;
+    or 
+    delete from table where columname=value;
+
+drop command:
+    drop command is used for delete all record with structure.
+
+command:
+    drop table table_name;
+    or
+    drop database_name;
+
+alter command:
+    alter command is used for add, delete,modify structure of table using add ,alter,drop keyword;
+
+Add column in table:
+    alter table table_name add column_name Datatype[size];
+drop column:w
+    alter table table_name drop column name;
+modify column name:
+    alter table table_name alter column column_name
 
 
+Task:
+    create a table with any column pk add 5 record and perform drop delete truncate and alter command.
 
+View:
+    view provide virtual table based on sql queryresult. view is same like is table but depend on result set of sql command;
+
+
+How create View
+    create view view_name as select .............
+
+
+Store procedure:
+---------------
+    store procedure is a collection of programme.
+    store procedure is provide security to sql injection.
+    execute or exec are used to create store procedure.
+    in this procedure we can access data in parameters.
+    procedure  are proc keyword are used to declare store procedure.
+ 
+Types of procedure:
+    1)Single procedure
+        in this we can write all command and access with particular condition.
+
+    2)multiple Procedure
+        in this procedure we can declare multiple Procedure for sql command. And access with procedure name.
+
+    Syntax:
+        ceeate proc|procedure procedure_name(@oara1 type[size],
+        @oara2 type[size],
+        @oara3 type[size],
+        .
+        .
+        .
+        )
+        as begin 
+        //sql command here
+        end
+
+    

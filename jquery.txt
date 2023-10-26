@@ -1,0 +1,54 @@
+jquery:
+=======
+    1)jquery is a client side javascript library used for provide client side validation and DOM;
+    2)jquery punchline is write less do more;
+    3)$ symbol are used to represent jquery;
+    4)$ is know as factory function of jquery;
+    5)anoynmous function are used in jquery. this type of function have no any name;
+    6)jquery developed by john resing in 2006;
+    7)jquery also pure case sensetive scripting language;
+    8)jquery also known as event driven language;
+
+ selector in jquery:
+==================
+    selector which are used to select elements based on html tag properties;
+types of selector:
+    1)id selector
+        #symbol are used to declare id;
+    2)class selector
+        .  symbol are used to declare class selector;
+    3)tag selector:
+        this is access with tag name;
+    4)property selector:
+        this is used for access with property name;
+    5)compound selector:
+        this is combination of two or more selector;
+    
+some function of jquery:
+1)val():
+    val is used for set and get value from textbox;
+2)text():
+    text is used for set and get text from text tag of html;
+    this is same like innerText property of js;
+3)html():
+    html is used for set and get text from all tag of html;
+    this is same like as innerHTML property of js;
+4)css():
+     this function is used for apply css of any html element;
+    
+5)attr():
+    this is used for set and get attributes by using attr():
+
+6)alert():
+     same as js
+7)console.log():
+    same as js
+8)document.write():
+    same as js
+NOTE:
+    if we want use all javascript concept in jquery;if we want to use jquery then first download jquery library from www.jquery.com and include with html folder;\
+
+event in jquery:
+    click(),change(),blue(),hover(),keyup(),keydown(),keypress(),mouseover(),mouseenter()....etc
+
+    
