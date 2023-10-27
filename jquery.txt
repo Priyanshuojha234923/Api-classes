@@ -46,9 +46,21 @@ some function of jquery:
 8)document.write():
     same as js
 NOTE:
-    if we want use all javascript concept in jquery;if we want to use jquery then first download jquery library from www.jquery.com and include with html folder;\
+    if we want use all javascript concept in jquery;if we want to use jquery then first download jquery library from www.jquery.com and include with html folder;
 
 event in jquery:
     click(),change(),blue(),hover(),keyup(),keydown(),keypress(),mouseover(),mouseenter()....etc
+
+Animation function of jquery:
+    1)hide(): use to hide() concept
+    2)show(): use to show() concept
+    3)fadeIn():  use to show() concept with opacity
+    4)fadeOut(): use to hide() concept with opacity
+    5)fadeToggle(): provide fadein() and fadeout() facility both
+    6)slideUp(): used for slide upper element
+    7)slideDown(): used for slide down element
+    8)slideToggle(): provide slideup and slideDown both element
+    9)animate(): used for Animation
+
 
     
