@@ -322,6 +322,33 @@ Access modifire/specifire
     5)custom validation
        used to declare logic related. according to business need
 
+state mechanism in asp.Net 
+   types of state mechanism in Asp.Net
+   1)server Side:
+   --------------
+      i)session: session is used for access any data ane page to another page. By default session time is 30 minutes .You can manage session time according to need;
+   How to set session:
+   ====================
+      session["id"]=value;
+
+   how to get session value:
+   ===========================
+      datatype var_name=session["id"];
+
+      ii)Query string: Query string is used for access data from url using id 
+      we can use anchor tag to send data into urls.
+
+      Ex:
+      ===
+      <a href="page_name.aspx?id=value"............></a>
+
+      2)Client side:
+      --------------
+      i)cookies: cookies is called side state mechanism used to manage data on browser according to need.
+
+      ii)Hidden fields: 
+
+
 
 
 
