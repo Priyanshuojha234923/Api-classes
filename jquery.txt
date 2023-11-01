@@ -63,4 +63,35 @@ Animation function of jquery:
     9)animate(): used for Animation
 
 
+How to bind data into dropdown using js:-
+========================================>
+
+some function of Jquerry:-
+------------------------->
+next():
+-------
+next() is used find next() elements of html.
+
+nextAll():
+---------
+nextAll() is used find next() all elements of html.
+
+closest():
+---------
+this is used for access elements inside another elements.
+
+this
+-----
+this is used
+
+confirm():
+-----------
+
+
+find()
+empty()
+remove()
+prepend()
+append()
+
     
