@@ -1,0 +1,41 @@
+Asp.net Mvc:
+------------
+1)Asp.net mvc is a framework of Asp.net
+2)mvc stand for model view controller
+3)model is a class used to declare getter setter and server side validation for view;
+4)controller is also a class but inherite controller class which are available in MVC name space;
+5)view is used for UI(html,css,js,jquery,bootstrap....)
+6)MVC provide design pattern foe develop general purpose application with powerful libraries;
+7)C# programming language is used in MVC;
+
+HttpGet:
+HttpGet get is used for perfprm any operation with onload of page.
+this is same like as load event in asp.net.
+
+HttpPost:
+HttpPost is same like as clickevent of asp.net perform when button and any linked are clicked;
+HOW TO CREATE MVC APPLICATION:
+
+file >new>project>web>vs 2012>C#>Asp.net mvc 4>projectname>basic >next
+
+Asp.net----------------------------------Asp.net Mvc
+1)page_load                              HttpGet
+2)click_event                            HttpPost
+3)Asp.net controller                     html,htmlhelper(static),htmlhelper(Dynamic)
+4)page.aspx.css                          controller
+5)page.aspx                              view
+6)update panel                          Ajax
+7)Validation                             Data Anotation/validation
+8)C#                                      C#
+9)DBmanager                              DBmanager
+10)Class(APP CODE)                       model
+11)Grid /list multiview                   HTML automatically
+12)state mechanism                        State mechanism
+
+
+how to manage MVC project
+1)go to model folder and add class with proper name;
+2)write getter ,setter and server side validation in model;
+3)Rebuild or build all project;
+4)create controller with HttpPost and HttpGet method;
+5)after that create view with perticular madel;

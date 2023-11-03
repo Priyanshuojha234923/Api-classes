@@ -1,0 +1,56 @@
+learn typescript:
+-----------------
+step-1:
+1) Download nodejs software and install.
+2) Go to cmd and check nodejs version
+ command:
+ =>node --version
+
+3) Install typescript with npm repository global
+command:
+=>npm install -g typescript
+4)check typescript version
+ command:
+ =>tsc -- version
+5)Wa typescript code and save with .ts extention;
+6)How to compile code of type script;
+=>tsc file_name.tsc
+7)How to run typescript code.
+=>node file_name.js
+8)after compilation of typescript code js file are created automatically;
+typescript:
+-----------
+1)typescript is a pure object oriented programming language;
+2)typescript is a static type programming language means data type must be declare to with variable.
+3)typescript fully design with javascript but after compilation typescript converted into javascript file;
+4)typescript is mainaly used in Angular framework;
+5)typescript developed by Microsoft corporation for develop large enterprizes application .
+6)typescript also case sensitive open source highlevel programming language;
+7)typescript first version is relese in october 2012;
+8)typescript latest version is 5.2.2.;
+
+Datatype of typescript:
+-----------------------
+1)number: used for integer;
+2)string: used for string data;
+3)any: used for any type data;
+4)bool:used for true and false;
+5)void: used for no return type;
+6)Array:used for array;
+7)null: used for null data;
+
+Output in typescript:
+     console.log () file is used for display result on command.
+
+Opertor in typescript:
+----------------------
+1)airthmatic(+,-,*,/,%)
+2)logical(&&,||,!)
+3)conditional/ternary(? and :)
+4)Asignment operator(=,+,-=,*=,/=)
+5)Equality operator(==)
+6)relational operator(>,<,=>,=<)
+7)increment and decrement(++,--)
+8)bitwise operatoe(&,|,!,^,~,.)
+9)type(in,delete,typeOf,instanceOf)
+
