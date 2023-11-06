@@ -1,0 +1,14 @@
+Ajax:
+------
+    Ajax stands for asynchrounous javascript and xml;
+    Ajax provide communication between client side to server side;without page reloading;
+    Ajax return data from xml formate or json formate ;
+    jquery play an important role in Ajax;
+    Ajax provide a important function first success function and second is failure function;
+    when block of code is exception free then success function are executed otherwise failure function;
+    
+some function of Ajax using jquery:
+1)$.ajax()
+2)$.getjson
+3)$.post
+4)$.get

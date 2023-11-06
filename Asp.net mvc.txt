@@ -24,13 +24,13 @@ Asp.net----------------------------------Asp.net Mvc
 3)Asp.net controller                     html,htmlhelper(static),htmlhelper(Dynamic)
 4)page.aspx.css                          controller
 5)page.aspx                              view
-6)update panel                          Ajax
+6)update panel                           Ajax
 7)Validation                             Data Anotation/validation
-8)C#                                      C#
+8)C#                                     C#
 9)DBmanager                              DBmanager
 10)Class(APP CODE)                       model
-11)Grid /list multiview                   HTML automatically
-12)state mechanism                        State mechanism
+11)Grid /list multiview                  HTML automatically
+12)state mechanism                       State mechanism
 
 
 how to manage MVC project
@@ -39,3 +39,26 @@ how to manage MVC project
 3)Rebuild or build all project;
 4)create controller with HttpPost and HttpGet method;
 5)after that create view with perticular madel;
+
+Description of all MVC Folder:
+1)properties: Which contain Assembaly information;
+2)References: This is used for namespace collection. We can Add remove References from MVC project;
+like as using system. windows.form which provide messagebox for show any message;
+3)AppData: This folder is used for contain any Script file or and external jar File.
+4)App_start: 
+i)BundleCodfig:
+this config is used for provide performence of software.in bundle we can create a bundle of uses liberary;
+ii)FilterConfig:
+this is used for filter concept like authentication filter ,authorization filter Error filter ....etc;
+iii)RouteConfig:
+this is used for provide route map controller to url.by default controller name is Home and View name is index .We can manage controller and view name according to need;
+iv)WebApiConfig: 
+this config is used provide configuration of web api concept;
+5)Content: This folder is use to contain Alldata which are used is programe;
+6) Controller: This is used for all controller of project;
+7)Script: This folder contain all Jquery files;
+8)Views: This is used for all UI pages of project;
+9)GLobal.asax: this file is used to manage all request of pages like request beginapplication ,request to urls ,Request to config file ...etc;This is also known application file of ASp.NET,
+10) Web.config: 
+this is used for web configuration file is used foe manage configuration of project like manage connectionstring ,session ,filters ,validations etc;
+                          

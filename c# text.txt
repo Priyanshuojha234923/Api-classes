@@ -326,7 +326,7 @@ state mechanism in asp.Net
    types of state mechanism in Asp.Net
    1)server Side:
    --------------
-      i)session: session is used for access any data ane page to another page. By default session time is 30 minutes .You can manage session time according to need;
+      i)session: session is used for access any data one page to another page. By default session time is 30 minutes .You can manage session time according to need;
    How to set session:
    ====================
       session["id"]=value;
