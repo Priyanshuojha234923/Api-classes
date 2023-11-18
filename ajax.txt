@@ -12,3 +12,4 @@ some function of Ajax using jquery:
 2)$.getjson
 3)$.post
 4)$.get
+
