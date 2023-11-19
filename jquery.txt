@@ -10,7 +10,7 @@ jquery:
     8)jquery also known as event driven language;
 
  selector in jquery:
-==================
+ ==================
     selector which are used to select elements based on html tag properties;
 types of selector:
     1)id selector
