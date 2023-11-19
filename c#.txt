@@ -5,4 +5,359 @@ Array trsaversal:
           4) deletion
           5) sorting
           6) searching
+sorting
+------------
+arr=10 ,20,30,40,50,60
+enter index:3.......40
+enter element :80
+if index==3
+arr[3]=80
+
+(2) multidimentional/2d Array
+================================
+this is used  for matrix representaion
+we know that matrix is a combination of row and column nested for loop is used in 2d Array.
+multiple square breacket are used to represent 2d array.
+
+syntax.
+=======
+datatype[][] Array_name=new_Arrayname[size1][size2]
+
+1 2 3   00 01 02
+2 3 4 = 10 11 12
+4 5 6   20 21 22
+
+multiplication of two matrix:
+=============================
+1 2 * 1 2 = 1*1 + 2*3  =7  10
+3 4   3 4   3*1 + 4*4  =15 22
+
+(00*00) (01*10)    (00*01)  (01*11)
+ 1*1   + 2*3       1*2  +  2*4           =        7(00)    10 (01)
+(10*00) (11*10)    (10*01)   (11*11)              15(10)   22 (11)
+ 3*1  +  4*3       3*2  +  4*4
+
+
+for(r=0;r<2;r++){
+    for(c=0;c<2;c++){
+        sum1[r,c]=0;
+        for(k=0;k<2;k++)
+        {
+            sum[r,c]+=mat1[r,k]*mat2[k,c];
+        }
+    }
+}
+
+
+
+string:
+=======
+String is a charector of array;
+string also start with 0 to length-1;
+In C# string datatype is used for string;
+Syntax:
+========
+string String_name
+i=0;str[i]!='\0';i++;v
+
+Some predefine function of string;
+===================================
+length():
+   This function used for count lengthof string;
+ToUpper():
+   This functionis used for Convert string in upper Case.
+ToLower():
+   This functionis used for Convert string in Lower Case.
+Insert():
+   This function is used for Insert charectoris string.
+Remove():
+   This function is used for Remove charector.
+Concat():
+   This function is used for join two String.
+Trim():
+   This functionis used for cut String'
+Equals():v
+   this function is used Compare two string.
+IndexOf():
+   This Function is used for Find index of participation Char.
+Lastindexof():
+    This function is used for find the last index of string;
+
+ Function:
+ =========
+    Function is a block of code used to perform specific task
+    Function provide reusability of code.
+    in C# we can declare static and non static method.
+    Types of method:
+    ================
+
+
+    Predefine method:
+    ==================
+       this method is already define in compiler or predefine class.
+       Example:- WriteLine() ,ReadLine(),read()
+    User definne method
+    ===================
+    This is used by user or programmer.
+    Types of user define method:
+    -----------------------------
+     1)no return no passing parameter
+
+           in this function provide output or result of function.
+           void keyword are used in no return function;void is no return type or null return type;
+
+     2)no return but passing parameter
+
+           but parametirized function can not have any value;
+
+     3)return but no passing parameter
+          
+           it return always value and print accordingto need;
+
+     4)return but passing parameter
+
+           return keyword are used to declare return function.
+           return function always return value and print according to need.
+
+
+oops:
+===========
+OOPA stands for object programming system;
+oops also provide redunency o f code;
+oops provide methodology of perform;
+oops have some important piller;
+1)class:
+=========
+class is a collection of object .class is a container which contain data member and data method.
+class also called user define datatype;
+class keyword are used to create a class.
+Syntax
+=======
+class class_name{
+   //data member 
+   //data method
+}
+ 2) object
+ ===========
+ object is a real word entity.which are used to access properties of class.
+ object have some properties and features .
+ we can create multiple object in a single class.
+ Syntax:
+ =======
+  class class_name
+  {
+     //data member
+     //data method
+  }
+  Main class{
+   class_name object_name=new class_name();
+  }
+3)inheritence
+==============
+inheritenceof most imporatnt piller of oops concept.
+inheritence is a mechanism in which a class inherite another class property.
+column (:)symbol are used to inherite another class in c#;
+There are 5 types of inherite
+i) single level inheritence
+===========================
+in single level inheritence,a sub(child) class inherite property of super(parent) class.
+
+ii)multilevel inheritence
+=========================
+in multilevel inheritence child class access parent  class property and super child access 
+sub class property;
+iii)multiple inheritence
+=========================
+This is not supporetd in C#.
+because a single child class not inherite multiple parent classs;
+
+iv)heirachle inheritence
++======================+
+In this inheritance one parent class and multiple child class can inherite property of parent class;
+   
+v)hybrid inheritence
+=++++++++++++++++=
+hybrid inheritance is a combination of multiple and multilevel or other inheritance;So multiple is not supporetd also hybrid in not supporetdin C#;
+4)Encapsulation:-
+=================
+In this concept wrapping data in single unit is called Encapsulation.Encapsulation work same like as capsule;
+Encapsulation contain member ,method with access modifire;
+5)Polymorphism:
+=================
+Polymorphism is a concept of made by poly and morphsime words
+Types of Polymorphism:
+======================
+i) Run Time Polymorphism
+============================
+       i)method overloading:
+       ======================
+          This concept contain multiple method of same name.but having different types of signature;
+          signature depends on two types like number of data type and number of parameter;
+
+       ii)operator overloading
+       ========================
+          operator overloading concept manage operator accordingto need;
+ii) compile Time Polymorphism:
+==============================
+      i)method overriding:
+      ====================
+        In this concept we can declare same name of method of parent class and also child class;
+        child class always override parent class method;
+
+         
+6) Data Abastraction:
+=======================
+     Data Abastraction is a process is used for data hiding internal processof code;
+     Abastract keyword are used in data Abastraction;
+     we can declare Abastract class and Abastract method in data Abastraction class;
+     We can't declare object of Abastract class and contain Abastract method and non Abastract method;
+     We know that Abastract method can not have method body;
+     We can declare method Body on calling Time;
+
+Constructure:
+==============
+    Constructure is a special method of class.
+    Constructure is same name as class name.
+    Constructure called autometacily when object are created;
+    We can create multiple Constructure in single class.
+    Constructure have no any return type.
+    Constructure always public access modifire;
+    Syntax:
+    =======
+       class_name object_name=new class_name();
+                                 --------------Special method/Constructure
+
+       Ex:
+       ===
+       demo d =new demo();
+       Here:-
+          Demo is a class name;
+          D is object_name(reference variable);
+          New is used to memory initilization;
+          demo() is a Constructure;
+
+
+Types of Constructure:
+======================
+    i) Default Constructure:
+    ========================
+          any class have by Default one Constructure without any parameter;
+    ii) copy Constructure:
+    =======================
+         In this copy one Constructure to another.
+    iii) static Constructure:
+    ========================
+        static Constructure always declare in static class.
+    iv)  parametirized Constructure:
+    ===============================
+       parametirized Constructure contain some parameter and given value on calling time;
+      
+Interface:
+===========
+Interface is a blue featuresprint of class;
+Interface is fullfill requirement of multiple inheritance;
+Interface keyword is used to declare Interface;
+in a single class we can declare multiple inheritance;
+Interface contain Abastract method.means any method without methodbody;
+Interface can't be inherite .Interface always implimented with comma(,)symbol;
+IN Interface single Child class can access multiple Interface.
+Syntax:
+=======
+Interface Interface_name
+{
+   //Abastract method;
+}
+
+Access modifire/specifire
+=========================
+   Access modifire tells about scope of method and class;
+   we can use internal,public,private,protected keyword in access modifire;
+
+
+   internal
+   ========
+    This is bydefault access modifire in class
+    internal scope is one assembly to another assembly and inside outside of class;
+
+    public
+    =======
+    public modifire scope in same class and outside of class;
+
+    protected
+    =========
+    protected is used for same class and child class also;
+
+    private
+    =========
+   private access,modifire scopein same class and same method.
+   if we want access out side class then first declare in public method then access eassly.
+   
+
+   Note:
+   =====
+   internal,public,protected,private these are all keyword;
+   we can't declare protected and private classes 
+   we can  declare only protected and private method;
+   in C# by default access modifire is internal;
+   we can also declare internal class using internal keyword
+
+
+
+
+  Server side validation in Asp.Net:
+  ==================================
+    1)required field validation (compalsary)
+       compalsary to input value in text box;all textbox
+
+    2)compare to validation 
+       compare 1 elemet to another element.like password to c password textbox
+
+    3)regular validation
+       use to set proper formate for expressions used in email mobile used in email mobile etc
+
+    4)range validation
+       used to define max to min value like age etc;
+
+    5)custom validation
+       used to declare logic related. according to business need
+
+state mechanism in asp.Net 
+   types of state mechanism in Asp.Net
+   1)server Side:
+   --------------
+      i)session: session is used for access any data one page to another page. By default session time is 30 minutes .You can manage session time according to need;
+   How to set session:
+   ====================
+      session["id"]=value;
+
+   how to get session value:
+   ===========================
+      datatype var_name=session["id"];
+
+      ii)Query string: Query string is used for access data from url using id 
+      we can use anchor tag to send data into urls.
+
+      Ex:
+      ===
+      <a href="page_name.aspx?id=value"............></a>
+
+      2)Client side:
+      --------------
+      i)cookies: cookies is called side state mechanism used to manage data on browser according to need.
+
+      ii)Hidden fields: 
+
+
+
+
+
+     
+      
+   
+     
+
+
+
+
+
 
