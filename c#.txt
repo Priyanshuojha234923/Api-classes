@@ -225,7 +225,7 @@ Constructure:
     Syntax:
     =======
        class_name object_name=new class_name();
-                                 --------------Special method/Constructure
+Special method/Constructure
 
        Ex:
        ===
@@ -247,10 +247,10 @@ Types of Constructure:
          In this copy one Constructure to another.
     iii) static Constructure:
     ========================
-        static Constructure always declare in static class.
+         static Constructure always declare in static class.
     iv)  parametirized Constructure:
     ===============================
-       parametirized Constructure contain some parameter and given value on calling time;
+         parametirized Constructure contain some parameter and given value on calling time;
       
 Interface:
 ===========
