@@ -7,3 +7,25 @@ javascript,typescript ,json,Angular,Jquery
 
 Web Api...(How to integrate)
           (how to develope)...hosting.........
+
+Angular:
+step:1;
+Install Angular    -
+               npm Install @angular/core
+step2:               
+insall angular cli
+             npm install @angular/cli -g
+
+             g means global initilization
+step3:
+ create project
+ ng new project_name
+
+step4: 
+  change Directoiry    .................cd project_name;
+
+step5:
+run server
+
+Note:
+by default localhost is 4200 in angular;

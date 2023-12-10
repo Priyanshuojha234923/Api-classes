@@ -105,7 +105,26 @@ for(initilization;condition;updation)                 outer loop
      ///statement
    }
 
-}c
+}
+note:outer loop execute one time and innerloop execute complete time untill given condition is true;
+outer loop is responsible for row and inner loop is responsible for column;
+Array:
+     Array is a collection of similiar data type 
+     areay starts  with 0 to length-1;
+     we can store multiple values in single variable;
+
+     synatx:   var  arr_name=[element];
+     A variable vs array:
+     a variable acn store single value whenever array can store multiple values;
+
+     some function of array:
+     1)tuple:
+     in this concept tuple can store hetrogenious data type means store different type of values;
+      
+      Ex: var var_name:any=[10,"john",32.3,"rock"]
+    
+
+
 
 
 
