@@ -7,16 +7,16 @@ step-1:
  =>node --version
 
 3) Install typescript with npm repository global
-command:
-=>npm install -g typescript
+ command:
+ =>npm install -g typescript
 4)check typescript version
  command:
  =>tsc -- version
 5)Wa typescript code and save with .ts extention;
 6)How to compile code of type script;
-=>tsc file_name.tsc
+ =>tsc file_name.tsc
 7)How to run typescript code.
-=>node file_name.js
+ =>node file_name.js
 8)after compilation of typescript code js file are created automatically;
 typescript:
 -----------
@@ -53,4 +53,59 @@ Opertor in typescript:
 7)increment and decrement(++,--)
 8)bitwise operatoe(&,|,!,^,~,.)
 9)type(in,delete,typeOf,instanceOf)
+
+loop statement:
+---------------
+for loop:
+----------
+Syntax:
+--------
+for(initilization;condition;updation){
+     //statement
+}
+for of for loop:
+---------------
+this loop is used for access particular value in condition
+synatax:
+for(var var_name of collection){
+     //statement
+}
+
+for in loop:
+------------
+this loop is used for access index of collection;
+synatx:
+--------
+for(var var_name in collection){
+     //statementcc
+}
+while loop:
+-----------
+syntax:
+initilization;
+while(condition){
+     //updation
+}
+
+do while loop:
+--------------
+Synatx:
+-------
+do{
+     //statement
+}
+while(condition);
+updation;
+
+nested for loop:
+for(initilization;condition;updation)                 outer loop
+{
+     for(initilization;condition;updation)            inner loop
+   {
+     ///statement
+   }
+
+}c
+
+
 
