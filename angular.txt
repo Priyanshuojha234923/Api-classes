@@ -29,3 +29,33 @@ run server
 
 Note:
 by default localhost is 4200 in angular;
+
+Data Binding:-
+  provide access element from server sidw to client side but here access data from typescript file to html component;
+Types of data Binding:
+1)one way data Binding
+  in this concept we can bind data with the help of double curlibracket {{ }}.
+
+2)two way data Binding
+  using this directive we can perform two way data binding .this directive available in formmodules class;
+  this class available in @angular/form package;
+  mg Model directive is used in two way data binding enclose with[()] symbole;
+  in angular we can use [] square bracket to bind property and parenthesis is used for bind events;
+
+  Directive of angular:
+  ---------------------
+    angular provide number of predefine directive mainly three types of directive are used in angular;
+    1)component directive;
+      this directive  is used for bind data from templete to browser;
+    2)structure directive;
+      this is used for add or remove an element with dom;
+      Ex: ngFor,ngIf,ngModel...etc
+    3)attribute directive;
+      this is attribute directives is used for change behaviour of a dom element 
+      Ex: ngStyle,ngClass...etc.
+
+  Number of event attributes are available in angular to call function when we perform an action on control. like click,change,load,blur....etc.
+
+    
+
+

@@ -207,7 +207,7 @@ ii) compile Time Polymorphism:
          
 6) Data Abastraction:
 =======================
-     Data Abastraction is a process is used for data hiding internal processof code;
+     Data Abastraction is a process is used for data hiding internal process of code;
      Abastract keyword are used in data Abastraction;
      we can declare Abastract class and Abastract method in data Abastraction class;
      We can't declare object of Abastract class and contain Abastract method and non Abastract method;
@@ -216,6 +216,7 @@ ii) compile Time Polymorphism:
 
 Constructure:
 ==============
+
     Constructure is a special method of class.
     Constructure is same name as class name.
     Constructure called autometacily when object are created;

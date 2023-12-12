@@ -122,7 +122,37 @@ Array:
      in this concept tuple can store hetrogenious data type means store different type of values;
       
       Ex: var var_name:any=[10,"john",32.3,"rock"]
-    
+ Push():
+       This is a add the add of end of array and return total number of element.
+       Ex :- var Arr:any[]=[100,200,300,"swati"]
+       Var n:number=arr.push(50);
+       alert(n);
+       alert(arr);
+ POP():
+       This function remove that last element of array and return value of that element;
+       Ex:-var arr:any[]=[100,200,300,"swati"];
+       var rv:number=arr.100p();
+       alert(rv);
+       alert(arr);
+Shift:
+       Remove the first element of array and return of value that element;
+       Ex:- var arr:[]=[100,200,300,"swati"]
+       var rv:number=arr.shift();
+       alert(rv);
+       alert(arr);
+Unshift():
+       add an element of the beggining of array and return total number of element;
+       Ex:- var arr:[]=[100,200,300,"swati"]
+       var rv:number=arr.unshift();
+       alert(rv);
+       alert(arr);
+slice():
+     this function we can get some part of array;
+Splice():
+     using this function we can add or remove element at the middle of array;
+Rest():
+     using this function we can store rest element of an array is a variable . identity is rest is dot....
+
 
 
 
