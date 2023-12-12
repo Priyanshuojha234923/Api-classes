@@ -123,8 +123,8 @@ Lastindexof():
 oops:
 ===========
 OOPA stands for object programming system;
-oops also provide redunency o f code;
-oops provide methodology of perform;
+oops also provide redunency of code;
+oops provide methodology of perform code;
 oops have some important piller;
 1)class:
 =========
