@@ -190,6 +190,19 @@ Syntax:
 
 Inheritence:
      in this concept of child class can access propery of current class Extend keyword are used to declare inheritence in typescript;
+1)Single level
+     one base class and one child class,
+2)multilevel
+     one grand class,one base class,one child class;
+3)multiple level
+     it is not suported because multiple base classes are available;
+
+4)hierarchical inheritence;
+     one base class and multiple child class
+5)hybrid inheritence;
+     combination of multiple inheritence and any other inheritence;
+     this is also not supported;
+
 
 
 

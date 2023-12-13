@@ -68,6 +68,16 @@ Types of data Binding:
     Bootstrap in Angular
     Component in Angular
 
+    1)how to add component in angular Project.
+    ng generate component component_name.
+
+    ng g c Home.
+
+    2)How to add module in angular Project.
+    ng generate module module_name;
+    ng g m module_name;
+
     
 
 
+  ghte
