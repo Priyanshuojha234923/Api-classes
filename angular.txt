@@ -55,6 +55,18 @@ Types of data Binding:
       Ex: ngStyle,ngClass...etc.
 
   Number of event attributes are available in angular to call function when we perform an action on control. like click,change,load,blur....etc.
+  Directive:
+    1)ngIf
+    2)ng-Template
+    3)ngFor
+    4)ng-switch
+    5)ngSwitchCase
+    6)ngStyle
+    7)ngClass
+    8)ngModel.....etc
+
+    Bootstrap in Angular
+    Component in Angular
 
     
 

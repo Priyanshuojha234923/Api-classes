@@ -152,6 +152,44 @@ Splice():
      using this function we can add or remove element at the middle of array;
 Rest():
      using this function we can store rest element of an array is a variable . identity is rest is dot....
+======================================================================================================
+                  ---------------------------OOPS----------------------------------------
+======================================================================================================
+class 
+     class is a collection of data method and member and object.
+     static class:
+          variable and function data member all are static;we cant declare object;
+     abstract class:
+           can't declare object;
+     shield class:
+          it can't be inherite;
+
+constructore:
+     constructore is a type of special method  contain class name as a method name ;
+     by default a single constructore available in class class when object are declare;
+     in typescript we can use constructore keyword to declare constructore mainly we are using constructore in angular application to inject services into component.
+
+     Syntax:
+      class class_name
+    {
+       constructore()
+      {
+          //constructore body;
+      } 
+    }
+This:
+     using this keyword we can access member of the class from the method of same class;
+
+Syntax:
+     class class_name{
+          function name(){
+               var variable name;
+               console .log (this.var_name);
+          }
+     }
+
+Inheritence:
+     in this concept of child class can access propery of current class Extend keyword are used to declare inheritence in typescript;
 
 
 
