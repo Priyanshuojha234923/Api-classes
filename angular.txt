@@ -77,7 +77,6 @@ Types of data Binding:
     ng generate module module_name;
     ng g m module_name;
 
-    
-
-
-  ghte
+  Events In Angular:
+  ------------------
+  (click),(change),(blur),(focus),(mouseover),(mouseleave),(input),(keyup),(keydown)
