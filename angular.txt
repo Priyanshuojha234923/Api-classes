@@ -80,3 +80,18 @@ Types of data Binding:
   Events In Angular:
   ------------------
   (click),(change),(blur),(focus),(mouseover),(mouseleave),(input),(keyup),(keydown)
+  Api:
+    Api stand for application programmable interface.
+    api is used for access data with json formate or xml formate.
+    we can use single api in any type of application like android ,windows,single page web application etc.
+    we can access data from url using api.
+
+    example: https://restcountries.com/v3.1/all
+
+    step: create sevices....=>ng g s service_name
+
+    Material Design:
+      1}material Design is used for attractive tools of UI like textboxes,button,checkbox etc....
+    2}We can used material design with bootstrap and special tags of materail design.
+    3}inttial <mat-control_name>.....</mat-control_name>is used in materailn design;
+    4}
