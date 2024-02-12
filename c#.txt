@@ -196,7 +196,7 @@ i) Run Time Polymorphism
 
        ii)operator overloading
        ========================
-          operator overloading concept manage operator accordingto need;
+          operator overloading concept manage operator according to need;
 ii) compile Time Polymorphism:
 ==============================
       i)method overriding:

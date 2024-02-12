@@ -95,3 +95,37 @@ Types of data Binding:
     2}We can used material design with bootstrap and special tags of materail design.
     3}inttial <mat-control_name>.....</mat-control_name>is used in materailn design;
     4}
+
+    Pipes:
+     this is used for manage string in angular;
+     this (|) use dto declare pipes;
+     pipes declare in currency decimal numbrers ...etc Angular;
+     We can define custome pipes according to need;
+     we can write pipes with interpolation of angular;
+
+
+     we can custom pipes with this command.'
+     ng generate pipe pipe_name;
+     ng g p pipe_name;
+
+
+     Example to create custom File:
+     step1: ng g p 
+
+
+
+     session:
+      session is used to store any type of data with particular session id;
+      session also known as first part of state mechanism;
+      in angular session provide all facility with  client side;
+     
+      
+      how to set session
+       Syntax: sessionStorage.setitem('id_name','value');
+      how to display session data;
+        Syntax: sessionStorage.Getitem('id_name','value');
+      how to delete siongler session dxata;
+      sessionStorage.removeItem("key");
+      how to clear session data;
+           sessionStorage.clear();
+      

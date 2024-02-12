@@ -140,8 +140,8 @@ SQl connection:
     -----------------------------
         i)Data source: this is a contain server name of your system.
         ii)Intitial Cataloge: this contain database name.
-        iii)integreted security: true;
-     connection with offline mode:
+        iii)integrated security: true;
+     connection with online mode:
     -----------------------------
         i)datasource: this contain ip address of your hosting server.
         ii)Intitial Catalog:This is contain database name.
